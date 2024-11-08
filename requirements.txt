@@ -1,5 +1,4 @@
-streamlit
-whisper
-requests
-ffpmeg
-ffmpeg-python
+whisper==1.1
+streamlit==1.18.1
+requests==2.26.0
+
