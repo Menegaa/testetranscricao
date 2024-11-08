@@ -13,7 +13,7 @@ st.title("Transcrição de Vídeo com Whisper")
 st.write("Faça o upload de um vídeo para transcrição.")
 
 # Upload de Arquivo
-uploaded_file = st.file_uploader("Escolha um arquivo de vídeo", type=["mp4", "mov", "mkv", "avi"])
+uploaded_file = st.file_uploader("Escolha um arquivo de vídeo", type=["mp4", "mov", "mkv", "avi", "mp3", ".ogg"])
 
 # Processamento do arquivo de vídeo
 if uploaded_file is not None:
